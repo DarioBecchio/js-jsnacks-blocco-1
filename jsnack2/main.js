@@ -10,9 +10,6 @@ for (i = 0 ; i < 6 ; i++){
     if (askMe % 2 == 1){
         empty.push(askMe);
         console.log(empty);
-    } else {
-        
-        console.log(empty);
-    }
+    } 
 
 }
