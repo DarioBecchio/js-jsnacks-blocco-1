@@ -4,13 +4,13 @@ In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, c
 const gatsby = ['Marco' , 'Giada' , 'Federico' , 'Marzia' , 'Luigi' , 'Erika' , 'Dario'];
 console.log(gatsby);
 // Creo un pormpt che chiede il nome del partecipante che vuole entrare alla festa e lo salvo in una costante
-const partecipant = (prompt('Quale è il suo nome?').value);
+const partecipant = (prompt('Quale è il suo nome?'));
 console.log(partecipant);
 //Creo un ciclo per far scorrere la lista e verifico con una condizionale se il nome inserito è presente
-for ( i = 0 ; i <= gatsby.length ; i++){
+for ( i = 0 ; i < gatsby.length ; i++){
     const invited = gatsby[i];
     console.log(invited);
-    if (partecipant == gatsby){
+    if (partecipant == invited){
         console.log('Lei puo entrare');
     }
 
